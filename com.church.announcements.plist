@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.church.announcements</string>
+
+    <!-- Run the app with the virtualenv's Python. Adjust the paths below if
+         your username or project folder is different. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/gradenlemasters/ProPresenter-Scheduler/venv/bin/python</string>
+        <string>/Users/gradenlemasters/ProPresenter-Scheduler/app.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/gradenlemasters/ProPresenter-Scheduler</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- Startup/crash output; the app's own log is in logs/portal.log -->
+    <key>StandardOutPath</key>
+    <string>/Users/gradenlemasters/Announcements/logs/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/gradenlemasters/Announcements/logs/launchd.err.log</string>
+</dict>
+</plist>

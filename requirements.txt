@@ -1,0 +1,4 @@
+Flask>=3.0,<4
+Pillow>=11.0
+pillow-heif>=0.20
+waitress>=3.0,<4
